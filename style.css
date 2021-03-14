@@ -17,7 +17,9 @@ img {
     object-fit: cover;
     width: 152px;
     margin-top: 80px;
-    border: 12px solid #E8E8E8;   
+    border: 12px solid #E8E8E8;
+    display: flex;
+    margin: auto;   
   }
 
 h1 {
@@ -36,6 +38,9 @@ h2 {
 }
 
 button {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
     width: 400px;
     height: 75px;
     background: #E8E8E8;
@@ -44,13 +49,12 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: #F46C00; 
+    color: #F46C00;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+button:hover {
+    background-color: #F46C00;
+    color: #E8E8E8;
 }
 
 footer {
