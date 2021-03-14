@@ -50,6 +50,7 @@ button {
     font-size: 24px;
     font-weight: 500;
     color: #F46C00;
+    transition: all 0.2s linear 0.2s;
 }
 
 button:hover {
