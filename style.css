@@ -19,19 +19,20 @@ img {
     margin-top: 80px;
     border: 12px solid #E8E8E8;
     display: flex;
-    margin: auto;   
+    margin: auto;
+    margin-top: 60px;   
   }
 
 h1 {
     color: #F46C00;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
     text-align: center;
 }
 
 h2 {
     color: #F46C00;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 60px;
     text-align: center;
@@ -62,7 +63,6 @@ footer {
     color: #F46C00;
     font-size: 12px;
     font-size: 400;
-    margin-top: 400px;
-    margin-bottom: 50px;
+    margin: auto;
     text-align: center;
 }
